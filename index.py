@@ -30,9 +30,7 @@ def editInfo(id=None):
 ################TODO EDIT Function
 @app.route("/edit", methods=['GET', 'POST'])
 def updateInfo():
-    print(request.form)
     number = int(request.form['id'])
-    print (todoList[number])
     todoList[number] = request.form['name']
     path = f"/id/{request.form['id']}"
     return redirect(path)

@@ -49,3 +49,16 @@ a{
     font-size: 25px;
     text-align: center;
 }
+
+input{
+    padding: 10px;
+}
+input[type=button], input[type=submit]{
+    padding: 10px;
+    font-size: 15px;
+}
+
+button{
+    padding: 10px;
+    font-size: 14px;
+}
