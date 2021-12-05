@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+
+body{
+    min-height: 80vh;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px auto;
+    font-size: 18px;
+}
+/* ul {
+    margin: auto;
+} */
+
+h1 {
+    font-size:10vw;
+    font-family: 'Abril Fatface', cursive;
+    padding: 10px;
+    padding: 0;
+    margin: 10px auto 4px auto;
+}
+
+.indexForm, .editForm{
+ text-align: center;
+}
+.editForm{
+    margin-bottom: 20px;
+}
+.smallerText{
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    margin-left: 10px;
+}
+
+a{
+    color: black;
+}
+
+.backButton{
+    text-align: center;
+}
+
+.todoItem{
+    font-size: 25px;
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+}
+input[type=button], input[type=submit]{
+    padding: 10px;
+    font-size: 15px;
+}
+
+button{
+    padding: 10px;
+    font-size: 14px;
+}
