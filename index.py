@@ -1,8 +1,8 @@
-from flask import Flask, jsonify, request, render_template, redirect
+from flask import Flask, request, render_template, redirect
 app = Flask(__name__)
 
 
-todoList = ["Clean Kitchen", "Eat Food", "Code"]
+todoList = ["Code", "Eat Food", "breate", "Code some more"]
 
 @app.route("/", methods=['GET'])
 def index():
