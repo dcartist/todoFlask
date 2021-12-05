@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
+
 <form action="{{ url_for('postTodo') }}" method="post">
     <input type="text" id="name" name="name">
     <input type="submit" name="submit"> 
@@ -9,7 +10,7 @@
 <div>
     <ul>
         {% for item in todo%}
-        <li> {{loop.index0}} {{item}} <a href="{{ url_for('editInfo', id=loop.index0) }}">Edit</a></li>
+        <li> {{loop.index0}} {{item}} <a href="{{ url_for('editInfo', id=loop.index0) }}">Edit</a> || <a href="{{ url_for('deleteItem', id=loop.index0) }}">Delete</a></li>
         {% endfor%}
     </ul>
 </div>
