@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request, render_template, redirect
 app = Flask(__name__)
 
 
-todoList = ["Code", "Eat Food", "breate", "Code some more"]
+todoList = ["Code", "Eat Food", "breathe", "Code some more"]
 
 @app.route("/", methods=['GET'])
 def index():
