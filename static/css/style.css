@@ -11,6 +11,7 @@ body{
 li {
     font-family: 'Roboto', sans-serif;
     margin: 10px auto;
+    font-size: 18px;
 }
 /* ul {
     margin: auto;
@@ -24,6 +25,27 @@ h1 {
     margin: 10px auto 4px auto;
 }
 
-.indexForm{
+.indexForm, .editForm{
  text-align: center;
+}
+.editForm{
+    margin-bottom: 20px;
+}
+.smallerText{
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    margin-left: 10px;
+}
+
+a{
+    color: black;
+}
+
+.backButton{
+    text-align: center;
+}
+
+.todoItem{
+    font-size: 25px;
+    text-align: center;
 }
