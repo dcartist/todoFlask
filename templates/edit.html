@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{{ item }}
+{{ id }}
+
+<form action="{{ url_for('updateInfo') }}" method="post">
+
+    <input type="hidden" id="id" name="id" value={{id}}>
+    <input type="text" id="name" name="name">
+    <input type="submit" name="submit" > 
+</form>
+
+
+
+
+{% endblock %}
